@@ -1,0 +1,161 @@
+/**
+ * Basic CSS Stylesheet for the phone dialer.
+ * Author: Tom Phillips
+ * Date: 3/2/2014
+ */
+h3 {
+    text-align: center;
+}
+
+.dialer {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+.numberButton {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.numberButton:hover {
+    background-color: red;
+}
+
+.number {
+    font-size: 4em;
+}
+
+.letters{
+    font-size: .75em;
+}
+
+.phoneNumber {
+    height: 3em;
+    width: 200px;
+}
+
+.phoneNumberField {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+#log {
+    margin-top: 25px;
+    font-family: arial;
+    width: 100%;
+    height: 2em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.textCell {
+    width: 100%;
+}
+
+#textCellLink {
+    font-family: arial;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#textMessageArea {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textMessageArea textarea {
+    height: 5em;
+    width: 100%;
+    resize: none;
+}
+
+#textCharacterCount {
+    text-align: right;
+    color: silver;
+}
+
+.call {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	align: left;
+}
+.call:hover {
+	background-color:#5cbf2a;
+}
+.call:active {
+	position:relative;
+	top:1px;
+}
+
+.hangup {
+	background-color:#c74545;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	float: right;
+}
+.hangup:hover {
+	background-color:#5cbf2a;
+}
+.hangup:active {
+	position:relative;
+	top:1px;
+}
+
+.sendText {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:16px;
+	padding:1px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	float: left;
+}
+.sendText:hover {
+	background-color:#5cbf2a;
+}
+.sendText:active {
+	position:relative;
+	top:1px;
+}
+

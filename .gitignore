@@ -1,0 +1,5 @@
+#ignore local backups
+backups/*
+
+#Do not update config info.
+#twilio-config.php
