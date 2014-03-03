@@ -2,4 +2,4 @@
 backups/*
 
 #Do not update config info.
-#twilio-config.php
+twilio-config.php
